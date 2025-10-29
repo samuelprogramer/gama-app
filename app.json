@@ -27,6 +27,24 @@
       "url": ""
     },
     "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "buildToolsVersion": "35.0.0",
+            "ndkVersion": "28.0.12433566",
+            "minSdkVersion": 24,
+            "newArchEnabled": false,
+            "packagingOptions": {
+              "jniLibs": {
+                "useLegacyPackaging": false
+              }
+            }
+          }
+        }
+      ],
       "expo-font"
     ]
   }
