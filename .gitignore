@@ -127,3 +127,4 @@ pc-api-*.json
 *.jks
 !debug.keystore
 auto-escola-digitals.jks
+/_ios
