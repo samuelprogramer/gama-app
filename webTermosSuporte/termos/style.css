@@ -1,0 +1,18 @@
+.margem{
+    width: 500px;
+    margin: auto;
+}
+body{
+    font-family: Arial, sans-serif; 
+}
+.caminho{
+    color: rgb(168, 170, 170);
+}
+/*ed3337*/
+hr{color: #ed3337;}
+@media screen and (max-width: 800px) {
+    .margem{
+      width: 93%;  
+       margin: 3%;
+    }
+  }

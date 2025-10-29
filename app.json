@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Auto Escola Digitals",
+    "slug": "autoescoladigitals",
+    "version": "9.1",
+    "icon": "./assets/logoaedigitals.png",
+    "splash": {
+      "image": "./assets/splash.png"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "br.com.brazil.autoescoladigitals.app"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.brazil.autoescoladigitals.autoescoladigitals",
+      "buildNumber": "8.0"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7f138962-b961-491d-abf8-91e53d509769"
+      }
+    },
+    "updates": {
+      "url": ""
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+set 01, 2022 1:29:54 PM java.util.prefs.FileSystemPreferences$6 run
+ADVERTÊNCIA: Prefs file removed in background /home/bruno/.java/.userPrefs/prefs.xml
+2022-09-01 13:30:01,030 [   8812]   WARN - rationStore.ComponentStoreImpl - Duplicated scheme Monokai Pro (Classic) - old: Monokai Pro (Classic), new Monokai Pro (Classic) 
+2022-09-01 13:30:01,207 [   8989]   WARN - rationStore.ComponentStoreImpl - Duplicated scheme Visual Studio Code Dark Plus - old: Visual Studio Code Dark Plus, new Visual Studio Code Dark Plus 
+2022-09-01 13:30:07,399 [  15181]   WARN - #com.intellij.ui.jcef.JBCefApp - JCEF runtime library is not a JBR module (Use JBR bundled with the IDE) 
+2022-09-01 13:30:13,366 [  21148]   WARN -            #com.android.ddmlib - * daemon not running; starting now at tcp:5037 
+2022-09-01 13:30:13,414 [  21196]   WARN -            #com.android.ddmlib - * daemon started successfully 
+2022-09-01 13:30:18,123 [  25905]   WARN - ctionSystem.impl.ActionUpdater - 1948 ms to expand group child Unscramble 
+2022-09-01 13:30:18,124 [  25906]   WARN - ctionSystem.impl.ActionUpdater - 2000 ms to expand group child AnalyzePlatformMenu 
+2022-09-01 13:30:18,124 [  25906]   WARN - ctionSystem.impl.ActionUpdater - 2120 ms to expand group child InspectCodeInCodeMenuGroup 
+2022-09-01 13:30:18,124 [  25906]   WARN - ctionSystem.impl.ActionUpdater - 1817 ms to expand group child Migrate 
+2022-09-01 13:30:18,125 [  25907]   WARN - ctionSystem.impl.ActionUpdater - 1925 ms to expand group child RefactoringMenu4 
+2022-09-01 13:30:18,784 [  26566]   WARN - ctionSystem.impl.ActionUpdater - Slow (103 ms) `org.jetbrains.kotlin.idea.scripting.gradle.LoadConfigurationAction#update`. Consider speeding it up and/or implementing UpdateInBackground. 
+2022-09-01 13:30:21,064 [  28846]   WARN - ctionSystem.impl.ActionUpdater - Slow (380 ms) `com.google.gct.login.ui.GoogleLoginAction#update`. Consider speeding it up and/or implementing UpdateInBackground. 
+2022-09-01 13:30:21,558 [  29340]   WARN - gle.gct.login.GoogleLoginUtils - Error retrieving user information. 
+com.google.api.client.auth.oauth2.TokenResponseException: 400 Bad Request
+{
+  "error" : "invalid_grant",
+  "error_description" : "Bad Request"
+}
+	at com.google.api.client.auth.oauth2.TokenResponseException.from(TokenResponseException.java:105)
+	at com.google.api.client.auth.oauth2.TokenRequest.executeUnparsed(TokenRequest.java:287)
+	at com.google.api.client.auth.oauth2.TokenRequest.execute(TokenRequest.java:307)
+	at com.google.api.client.auth.oauth2.Credential.executeRefreshToken(Credential.java:570)
+	at com.google.api.client.googleapis.auth.oauth2.GoogleCredential.executeRefreshToken(GoogleCredential.java:362)
+	at com.google.api.client.auth.oauth2.Credential.refreshToken(Credential.java:489)
+	at com.google.api.client.auth.oauth2.Credential.intercept(Credential.java:217)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:859)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:419)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:352)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:469)
+	at com.google.gct.login.GoogleLoginUtils.lambda$getUserInfo$1(GoogleLoginUtils.java:116)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:265)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-09-01 13:30:24,308 [  32090]  ERROR - figurationStore.JbXmlOutputter - Element component@PropertiesComponent.property.@name=SPLIT_EDITOR_MODE_/home/bruno/ProjetosGit/fechaki/FechaKi/app/src/main/res/layout/checkpasswordalert.xml probably contains sensitive information (file: FileBasedStorage(file=~/.config/Google/AndroidStudio2021.2/options/other.xml, fileSpec=other.xml, isBlockSavingTheContent=null)) 
+java.lang.Throwable: Element component@PropertiesComponent.property.@name=SPLIT_EDITOR_MODE_/home/bruno/ProjetosGit/fechaki/FechaKi/app/src/main/res/layout/checkpasswordalert.xml probably contains sensitive information (file: FileBasedStorage(file=~/.config/Google/AndroidStudio2021.2/options/other.xml, fileSpec=other.xml, isBlockSavingTheContent=null))
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:182)
+	at com.intellij.configurationStore.JbXmlOutputter.logSensitiveInformationError(JbXmlOutputter.kt:574)
+	at com.intellij.configurationStore.JbXmlOutputter.checkIsElementContainsSensitiveInformation(JbXmlOutputter.kt:528)
+	at com.intellij.configurationStore.JbXmlOutputter.writeContent(JbXmlOutputter.kt:265)
+	at com.intellij.configurationStore.JbXmlOutputter.printElement(JbXmlOutputter.kt:253)
+	at com.intellij.configurationStore.JbXmlOutputter.printContentRange(JbXmlOutputter.kt:344)
+	at com.intellij.configurationStore.JbXmlOutputter.writeContent(JbXmlOutputter.kt:283)
+	at com.intellij.configurationStore.JbXmlOutputter.printElement(JbXmlOutputter.kt:253)
+	at com.intellij.configurationStore.XmlDataWriter.write$intellij_platform_configurationStore_impl(XmlElementStorage.kt:272)
+	at com.intellij.configurationStore.StringDataWriter.write(XmlElementStorage.kt:428)
+	at com.intellij.configurationStore.DataWriter$DefaultImpls.write$default(XmlElementStorage.kt:408)
+	at com.intellij.configurationStore.XmlElementStorageKt.writeTo(XmlElementStorage.kt:420)
+	at com.intellij.configurationStore.FileBasedStorage$FileSaveSession.saveLocally(FileBasedStorage.kt:123)
+	at com.intellij.configurationStore.XmlElementStorage$XmlElementStorageSaveSession$SaveExecutor.save(XmlElementStorage.kt:164)
+	at com.intellij.configurationStore.SaveExecutorKt.executeSave(SaveExecutor.kt:92)
+	at com.intellij.configurationStore.SaveExecutorKt.saveSessions(SaveExecutor.kt:86)
+	at com.intellij.configurationStore.SaveSessionProducerManager$save$task$1.invoke(SaveExecutor.kt:69)
+	at com.intellij.configurationStore.SaveSessionProducerManager$save$task$1.invoke(SaveExecutor.kt:23)
+	at com.intellij.configurationStore.SaveSessionProducerManager.save$suspendImpl(SaveExecutor.kt:79)
+	at com.intellij.configurationStore.SaveSessionProducerManager.save(SaveExecutor.kt)
+	at com.intellij.configurationStore.ApplicationStoreImpl$doSave$2$1.invokeSuspend(ApplicationStoreImpl.kt:49)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:274)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at com.intellij.configurationStore.SaveAndSyncHandlerImpl$saveSettingsUnderModalProgress$$inlined$use$lambda$2.run(SaveAndSyncHandlerImpl.kt:223)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.startTask(CoreProgressManager.java:450)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.startTask(ProgressManagerImpl.java:117)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcessWithProgressSynchronously$8(CoreProgressManager.java:556)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$new$0(ProgressRunner.java:81)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$3(ProgressRunner.java:243)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:183)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:705)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:647)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:63)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:170)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$4(ProgressRunner.java:243)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-09-01 13:30:24,337 [  32119]  ERROR - figurationStore.JbXmlOutputter - Android Studio Chipmunk | 2021.2.1  Build #AI-212.5712.43.2112.8512546 
+2022-09-01 13:30:24,340 [  32122]  ERROR - figurationStore.JbXmlOutputter - JDK: 11.0.12; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o. 
+2022-09-01 13:30:24,341 [  32123]  ERROR - figurationStore.JbXmlOutputter - OS: Linux 
+2022-09-01 13:30:24,342 [  32124]  ERROR - figurationStore.JbXmlOutputter - Last Action:  
+2022-09-01 13:30:24,910 [  32692]   WARN - arketplace.MarketplaceRequests - Error reading Marketplace file: com.intellij.serviceContainer.AlreadyDisposedException: Cannot create com.intellij.util.net.HttpConfigurable because container is already disposed (container=Application (containerState=DISPOSE_COMPLETED) ) (file=/home/bruno/.local/share/Google/AndroidStudio2021.2/meta/216933.json URL=https://plugins.jetbrains.com/files/13643/216933/meta.json) 
